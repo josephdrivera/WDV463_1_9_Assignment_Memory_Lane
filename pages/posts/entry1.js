@@ -19,7 +19,7 @@ function Slide() {
         <div className="grid md:grid-cols-2 py-3">
             <div className="info flex justify-center flex-col">
                 <div className="category">
-                    <Link href={"/"}>Recent Journal Entries</Link>
+                    <Link href={"/"}></Link>
                     <Link href={"/"}>-APRIL 10, 2023</Link>
                 </div>
                 <div className="title">
