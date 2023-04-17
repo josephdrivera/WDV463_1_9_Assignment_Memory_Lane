@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "dev": "nodemon -e js,jsx,json --exec \"npm run build && next start\""
+
   },
   "dependencies": {
     "@next/font": "13.1.4",
@@ -20,6 +22,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
+    "nodemon": "^2.0.22",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.3.1"
   }
