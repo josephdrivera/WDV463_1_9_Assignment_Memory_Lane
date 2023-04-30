@@ -25,6 +25,9 @@ export default function Header() {
                     <Link href="/posts/entry5">
                         <a className="hover:text-indigo-700">Posts 5</a>
                     </Link>
+                    <Link href="/posts/entry6">
+                        <a className="hover:text-indigo-700">Posts 6</a>
+                    </Link>
                 </nav>
             </div>
         </header>
